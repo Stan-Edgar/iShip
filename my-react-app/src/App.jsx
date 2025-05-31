@@ -14,9 +14,8 @@ function App() {
   const btn = document.querySelector('.logo');
 
   // href="https://www.instagram.com/_edgarthegreat/"
-
-  if (btn) {
-    console.log('clicked!');
+  
+  console.log('clicked');
 
     btn.addEventListener('click', () => {
     if (card && card2 && matchup) {
@@ -30,7 +29,7 @@ function App() {
   }
   })
 
-  }
+  
   
 
   return (
